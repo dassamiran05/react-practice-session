@@ -1,0 +1,21 @@
+.head-title {
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #e7e7e7;
+  transition: 0.4s;
+}
+
+.head-title:hover {
+  cursor: pointer;
+}
+
+.head-answer {
+  display: none;
+}
+.head-answer.active {
+  display: block;
+  background-color: #ccc;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
