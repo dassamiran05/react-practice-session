@@ -15,6 +15,8 @@ import Showtimer from "./component/Showtimer";
 import Timer from "./component/Timer";
 import TodoList from "./component/TodoList";
 import Truncate from "./component/Truncate";
+import UseReducer from "./component/UseReducer";
+import UseReducer2 from "./component/UseReducer2";
 import GitHubRepositories from "./component/react_api/GitHubRepositories";
 import Postform from "./component/react_api/Postform";
 import RandomQuote from "./component/react_api/RandomQuote";
@@ -32,8 +34,11 @@ function App() {
       {/* <Form3 /> */}
       {/* <Timer /> */}
       {/* <Truncate /> */}
-      <Showtimer />
+      {/* <Showtimer /> */}
       {/* <ColorPicker /> */}
+      {/* <TodoList/> */}
+      {/* <UseReducer /> */}
+      <UseReducer2 />
     </>
   );
 }
