@@ -1,6 +1,7 @@
 import "./App.css";
 import Accordion from "./component/Accordion";
 import Button from "./component/Button";
+import Callback from "./component/Callback";
 import ColorPicker from "./component/ColorPicker";
 import Counter from "./component/Counter";
 import Form from "./component/Form";
@@ -10,6 +11,7 @@ import Funcsprops from "./component/Funcsprops";
 import ImageSlider from "./component/ImageSlider";
 import ListAndKeys from "./component/ListAndKeys";
 import LoginForm from "./component/LoginForm";
+import Memo from "./component/Memo";
 import ProductList from "./component/ProductList";
 import Showtimer from "./component/Showtimer";
 import Timer from "./component/Timer";
@@ -38,7 +40,9 @@ function App() {
       {/* <ColorPicker /> */}
       {/* <TodoList/> */}
       {/* <UseReducer /> */}
-      <UseReducer2 />
+      {/* <UseReducer2 /> */}
+      {/* <Memo /> */}
+      <Callback />
     </>
   );
 }
