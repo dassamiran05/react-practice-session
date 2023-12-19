@@ -3,7 +3,9 @@ import React, { useState, useMemo } from "react";
 const Memo = () => {
   const [number, setNumber] = useState(0);
   const squaredNum = useMemo(() => {
-    return squareNum(number);
+    // return squareNum(number);
+    console.log("Squaring will be done!");
+    return Math.pow(number, 2);
   }, [number]);
   const [counter, setCounter] = useState(0);
 
@@ -18,10 +20,10 @@ const Memo = () => {
   };
 
   // function to square the value
-  function squareNum(number) {
-    console.log("Squaring will be done!");
-    return Math.pow(number, 2);
-  }
+  // function squareNum(number) {
+  //   console.log("Squaring will be done!");
+  //   return Math.pow(number, 2);
+  // }
 
   return (
     <div className="App">

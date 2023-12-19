@@ -8,6 +8,9 @@ const Callback = () => {
   const increment = () => {
     setCount((c) => c + 1);
   };
+  // const addTodo = () => {
+  //   setTodos((t) => [...t, "New Todo"]);
+  // };
   const addTodo = useCallback(() => {
     setTodos((t) => [...t, "New Todo"]);
   }, [todos]);

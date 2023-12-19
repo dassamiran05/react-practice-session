@@ -13,7 +13,9 @@ import ListAndKeys from "./component/ListAndKeys";
 import LoginForm from "./component/LoginForm";
 import Memo from "./component/Memo";
 import ProductList from "./component/ProductList";
+import ScrollIndicator from "./component/ScrollIndicator";
 import Showtimer from "./component/Showtimer";
+import Starrating from "./component/Starrating";
 import Timer from "./component/Timer";
 import TodoList from "./component/TodoList";
 import Truncate from "./component/Truncate";
@@ -42,7 +44,9 @@ function App() {
       {/* <UseReducer /> */}
       {/* <UseReducer2 /> */}
       {/* <Memo /> */}
-      <Callback />
+      {/* <Callback /> */}
+      {/* <Starrating /> */}
+      <ScrollIndicator url="https://dummyjson.com/products?limit=100"/>
     </>
   );
 }
