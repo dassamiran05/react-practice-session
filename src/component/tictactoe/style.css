@@ -1,0 +1,41 @@
+.board-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.board-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.sqaure {
+  border: 1px solid purple;
+  width: 60px;
+  height: 60px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sqaure h3 {
+  color: #27b139;
+  margin-bottom: 0px;
+  /* color: #d90a0a; */
+}
+
+.sam {
+  margin-bottom: 30px;
+}
+
+.board-container .btn {
+  background: #707c7f;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.board-container .btn:hover{
+    background: #707c7f;
+    color: #fff;
+}

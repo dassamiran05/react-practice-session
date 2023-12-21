@@ -25,6 +25,7 @@ import GitHubRepositories from "./component/react_api/GitHubRepositories";
 import Postform from "./component/react_api/Postform";
 import RandomQuote from "./component/react_api/RandomQuote";
 import UserList from "./component/react_api/UserList";
+import TicTacToe from "./component/tictactoe/TicTacToe";
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
       {/* <Memo /> */}
       {/* <Callback /> */}
       {/* <Starrating /> */}
-      <ScrollIndicator url="https://dummyjson.com/products?limit=100"/>
+      {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100"/> */}
+      <TicTacToe />
     </>
   );
 }
